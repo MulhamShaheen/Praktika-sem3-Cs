@@ -268,26 +268,6 @@ namespace Lab_3
             {
                 Console.WriteLine($"{o.Type} [ Area = {o.Area} Width = {o.Width} ]");
             }
-            //string path = @"C:\MyJSON.txt";
-            //if (!File.Exists(path))
-            //{
-              //  Console.WriteLine("File does not exist :(");
-            //}
-
-            //string S = File.ReadAllText(path);
-            //using (StreamReader Reader = File.OpenText(path))
-            //{
-            //  string s;
-            //while ((s = Reader.ReadLine()) != null)
-            //{
-            //  Console.WriteLine(s);
-            //Shape NewSq = JsonConvert.DeserializeObject<Shape>(s);
-            //}
-            //s = Reader.ReadLine();
-            //}
-            //string MySquare = JsonConvert.SerializeObject(MySquar);
-            //Square NewSq = JsonConvert.DeserializeObject<Square>(S);
-            //Console.WriteLine(NewSq.Area);
             Console.WriteLine(Ge.AvArea());
             while (true)
             {
@@ -434,10 +414,7 @@ namespace Lab_3
                                 {
                                     Console.WriteLine(e.Message);
                                 }
-                            }
-                           
-                            //string MySquare = JsonConvert.SerializeObject(MySquar);
-                            //Console.WriteLine(MySquare);
+                            }                
                         }
                     }
 
@@ -470,9 +447,3 @@ namespace Lab_3
         }
     }
 }
-
-
-
-
-
-   
