@@ -119,8 +119,6 @@ namespace Lab_4_1
                 {
                     WebClient webClient = new WebClient();
 
-                    //for (int j = 0; j < Alts.Length; j++) Console.WriteLine(Alts[j]);
-
                     Console.WriteLine($"\nPage:\n{page}\nLinks:");
                     int i = 0;
                     foreach (var _link in links)
